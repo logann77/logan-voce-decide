@@ -1,4 +1,55 @@
-html {
-  height: 100%;
-  width: 100%;
+*CSS*
+
+body{
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
+
+header{
+  background-color: #45af50;
+  color: #FFF;
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav{
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav a{
+  color: #F2F2F2;
+  display: block;
+  padding: 14px 16px;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.5s all;
+}
+
+nav a:hover{
+  background-color: #DDDDDDDD;
+  color: #000;
+}
+
+.container{
+  padding: 20px;
+}
+
+.sessao{
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+footer{
+  background-color: #333333;
+  color: #FFF;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
